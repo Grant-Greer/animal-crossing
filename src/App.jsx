@@ -1,8 +1,13 @@
-import React, { useState, useEffect } from "react";
-import "./App.css";
+import React from 'react'
+import './App.css'
+import Header from './components/Header'
 
 function App() {
-  return <div className="h-screen bg-[url('./animalgc.jpg')]">hello world</div>;
+    return (
+        <div className="h-screen bg-[url('./animal-crossing-grassnground.jpeg')] ]">
+            <Header />
+        </div>
+    )
 }
 
-export default App;
+export default App

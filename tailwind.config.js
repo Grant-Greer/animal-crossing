@@ -1,9 +1,14 @@
-/** @type {import('tailwindcss').Config} */
-// eslint-disable-next-line no-undef
+/* eslint-disable prettier/prettier */
+/** @type {import('tailwindcss').Config} */ 
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
-    extend: {},
+    colors: {
+      'dark-brown': "#422A0D",
+      'light-brown': "#D18835"
   },
+    extend: {},
   plugins: [],
-};
+}};
