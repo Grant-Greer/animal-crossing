@@ -12,4 +12,4 @@ const getFish = async () => {
     return data
 }
 
-export default { getFish, getFossils }
+export { getFish, getFossils }

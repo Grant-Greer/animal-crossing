@@ -5,10 +5,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    colors: {
-      'dark-brown': "#422A0D",
-      'light-brown': "#D18835"
+    extend: {
+      fontFamily: {
+        sans: ["FinkHeavy", "sans-serif"]
+      },
+      colors: {
+        'dark-brown': "#422A0D",
+        'light-brown': "#D18835"
+    }
   },
-    extend: {},
   plugins: [],
 }};
