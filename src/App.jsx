@@ -2,6 +2,10 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import Header from './components/Header'
+import FossilList from './pages/FossilList'
+import BugList from './pages/BugList'
+import FishList from './pages/FishList'
+
 
 function App() {
     return (
@@ -11,7 +15,6 @@ function App() {
                 <Route path="/fossils" element={<FossilList />} />
                 <Route path="/bugs" element={<BugList />} />
                 <Route path="/fish" element={<FishList />} />
-                <Route path="/villagers" element={<VillagerList />} />
             </Routes>
         </div>
     )
